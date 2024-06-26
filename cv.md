@@ -15,7 +15,7 @@
 
 ### HTML, CSS, JS and a bit of React. And a bunch of skills not connected with web development such as pawn scripting language e.t.c.
 
-# Code Example
+# Code example
 
 ```
 function fakeBin(x) {
@@ -36,6 +36,6 @@ function fakeBin(x) {
 
 ### Graduated from Homel State University as an Engilsh teacher. Talking about programming skills, I have taken several courses on udemy.
 
-# Language Level and expirience
+# Language level and experience
 
 ### Last time it was B1. My practice consisted of working as a teacher at school.
