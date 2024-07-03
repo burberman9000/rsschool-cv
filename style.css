@@ -1,3 +1,135 @@
-a{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+header {
+    background-color: #829985;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
     text-decoration: none;
+    color: white;
+    padding: 0 12px;
+    position: relative;
+    font-weight: 300;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-promo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+    align-items: center;
+}
+main {
+    margin-bottom: auto;
+}
+section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.section-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-promo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #829985;
+    padding: 25px;
+}
+pre {
+    white-space: pre;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-title {
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+
+.nav-item a:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(https://cv-hints.netlify.app/assets/svg/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#education,
+#language {
+    border-bottom: none;
 }
