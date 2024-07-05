@@ -14,17 +14,15 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
-}
-header {
-    background-color: #829985;
+    color: white;
+    background-color: #141414;
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 a {
@@ -44,27 +42,16 @@ a {
 
 .section-promo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #d7d1c9;
+
     align-items: center;
 }
 main {
     margin-bottom: auto;
 }
-section {
-    width: calc(50% - 20px);
-    padding: 10px;
-    padding-bottom: 35px;
-    border-bottom: 1px solid #672f2f;
-}
 
-.section-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .section-promo img {
     width: 200px;
     height: 200px;
@@ -75,8 +62,7 @@ section {
 }
 
 footer {
-    background-color: #829985;
-    padding: 25px;
+    background-color: #222222;
 }
 pre {
     white-space: pre;
@@ -86,7 +72,7 @@ pre {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
     color: #fff;
@@ -97,7 +83,8 @@ pre {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+
+    color: white;
 }
 
 .section-list {
@@ -114,6 +101,24 @@ pre {
     letter-spacing: 10px;
     line-height: 50px;
     word-spacing: 3px;
+    color: white;
+}
+
+.nav-item {
+    height: 50px;
+
+    position: relative;
+    top: -17px;
+}
+.nav-item:hover {
+    background-color: #333333;
+    border-bottom: 2px solid blue;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #222222;
+    height: 51px;
 }
 
 .nav-item a:hover {
@@ -132,4 +137,44 @@ pre {
 #education,
 #language {
     border-bottom: none;
+}
+
+.main-left,
+.main-right {
+    justify-content: space-between;
+    width: 650px;
+}
+
+.section-main {
+    display: flex;
+
+    justify-content: center;
+    border-top: 2px solid grey;
+    margin-bottom: 25px;
+}
+
+.main-right {
+    padding-left: 25px;
+}
+
+.section-promo-title {
+    border-left: 2px solid grey;
+    padding-left: 25px;
+    position: relative;
+    left: 45px;
+}
+
+.git-link {
+    display: flex;
+    background-color: #222222;
+    height: 62px;
+    position: relative;
+    border-top: 2px solid #222222;
+    align-items: center;
+}
+
+.git-link:hover {
+    background-color: #333333;
+    border-top: 2px solid blue;
+    transition: 0.3s;
 }

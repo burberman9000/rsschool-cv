@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" >
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>cv</title>
         <link rel="stylesheet" href="style.css ">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link
@@ -28,33 +28,53 @@
         <main>
             <div class="container container-main">
                 <div class="section section-promo">
-                    <img src="assets/profile.png" alt="profile" >
-                
-                    <div class="section section-promo-title"><h1 class="main-title">Ivan Burdolenko</h1></div>
+                    <img src="assets/profile.jpg" alt="profile">
+
+                    <div class="section section-promo-title">
+                        <h1 class="main-title">
+                            <b>Ivan<br>Burdolenko</b>
+                        </h1>
+                    </div>
                 </div>
                 <div class="container section-main">
-                    <section id="contacts">
-                        <h2 class="section-title">Contacts</h2>
-                        <ul class="section-list">
-                            <li><b>Phone:</b> +375447335327</li>
-                            <li><b>Email:</b> burdolevich@gmail.com</li>
-                            <li><b>GitHub:</b> burberman9000</li>
-                        </ul>
-                    </section>
-                    <section id="goals">
-                        <h2 class="section-title">Goals</h2>
-                        <p>Become a successful front-end in the future and in the future a full-stack developer.</p>
-                    </section>
-                    <section id="skills">
-                        <h2 class="section-title">Skills</h2>
-                        <p>
-                            HTML, CSS, JS and a bit of React. And a bunch of skills not connected with web development
-                            such as pawn scripting language e.t.c.
-                        </p>
-                    </section>
-                    <section id="code">
-                        <h2 class="section-title">Code</h2>
-                        <pre class="pre"><code>function fakeBin(x) {
+                    <div class="main-left">
+                        <section id="contacts">
+                            <h2 class="section-title">Contacts</h2>
+                            <ul class="section-list">
+                                <li class="contacts-item"><b>Phone:</b> +375447335327</li>
+                                <li class="contacts-item"><b>Email:</b> burdolevich@gmail.com</li>
+                                <li class="contacts-item"><b>GitHub:</b> burberman9000</li>
+                            </ul>
+                        </section>
+                        <section id="goals">
+                            <h2 class="section-title">Goals</h2>
+                            <p>Become a successful front-end in the future and in the future a full-stack developer.</p>
+                        </section>
+                        <section id="skills">
+                            <h2 class="section-title">Skills</h2>
+
+                            <ul class="section-list">
+                                <li><b>Web Development:</b> HTML, CSS, JS</li>
+
+                                <li><b>Framework:</b> React</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="main-right">
+                        <section id="education">
+                            <h2 class="section-title">Education</h2>
+                            <p>
+                                Graduated from Homel State University as an Engilsh teacher. Talking about programming
+                                skills, I have taken several courses on udemy.
+                            </p>
+                        </section>
+                        <section id="language">
+                            <h2 class="section-title">Language</h2>
+                            <p>B1 - Pre-intermediate</p>
+                        </section>
+                        <section id="code">
+                            <h2 class="section-title">Code</h2>
+                            <pre class="pre"><code>function fakeBin(x) {
 let str = '';
 for (let i = 0; i &lt; x.length; i++) {
   if (x[i] &lt; 5) {
@@ -65,24 +85,17 @@ for (let i = 0; i &lt; x.length; i++) {
 }
 return str;
 }</code></pre>
-                    </section>
-                    <section id="education">
-                        <h2 class="section-title">Education</h2>
-                        <p>
-                            Graduated from Homel State University as an Engilsh teacher. Talking about programming
-                            skills, I have taken several courses on udemy.
-                        </p>
-                    </section>
-                    <section id="language">
-                        <h2 class="section-title">Language</h2>
-                        <p>Last time it was B1. My practice consisted of working as a teacher at school.</p>
-                    </section>
+                        </section>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
             <div class="container footer-container">
-                <div>© 2024 <a href="https://github.com/burberman9000?tab=repositories">burberman9000</a></div>
+                <div class="git-link">
+                    <a href="https://github.com/burberman9000">burberman9000</a>
+                </div>
+                <span>©2024</span>
                 <a class="rss" href="https://rs.school/courses/javascript-ru"></a>
             </div>
         </footer>
