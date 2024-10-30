@@ -112,7 +112,7 @@ pre {
 }
 .nav-item:hover {
     background-color: #333333;
-    border-bottom: 2px solid rgb(0, 255, 13);
+    border-bottom: 2px solid blue;
     transition: 0.3s;
 }
 
@@ -175,6 +175,6 @@ header {
 
 .git-link:hover {
     background-color: #333333;
-    border-top: 2px solid rgb(0, 255, 13);
+    border-top: 2px solid blue;
     transition: 0.3s;
 }
