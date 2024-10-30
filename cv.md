@@ -6,6 +6,7 @@
 
 -   +375447335327
 -   burdolevich@gmail.com
+-   scientistfromlambdacomplex@gmail.com
 
 # Goals
 
